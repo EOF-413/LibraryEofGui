@@ -1,0 +1,120 @@
+QMainWindow {
+    background-color: #1a1a2e;
+}
+
+QLabel#TitleLabel {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+
+QLabel#DescLabel {
+    color: #8888aa;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+}
+
+QPushButton {
+    background-color: #16213e;
+    color: #ffffff;
+    border: 2px solid #0f3460;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 20px;
+}
+
+QPushButton:hover {
+    background-color: #0f3460;
+    border-color: #e94560;
+}
+
+QPushButton:pressed {
+    background-color: #e94560;
+}
+
+QPushButton#SettingsBtn {
+    background-color: #e94560;
+    border-color: #e94560;
+}
+
+QPushButton#SettingsBtn:hover {
+    background-color: #c73652;
+}
+
+QPushButton#LogBtn {
+    background-color: #533483;
+    border-color: #533483;
+}
+
+QPushButton#LogBtn:hover {
+    background-color: #3d2563;
+}
+
+QPushButton#CloseBtn {
+    background-color: #2d2d44;
+    border-color: #2d2d44;
+}
+
+QPushButton#CloseBtn:hover {
+    background-color: #444466;
+}
+
+QDialog {
+    background-color: #1a1a2e;
+}
+
+QLineEdit {
+    background-color: #16213e;
+    color: #ffffff;
+    border: 2px solid #0f3460;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 12px;
+}
+
+QLineEdit:focus {
+    border-color: #e94560;
+}
+
+QCheckBox {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+QSpinBox, QDoubleSpinBox {
+    background-color: #16213e;
+    color: #ffffff;
+    border: 2px solid #0f3460;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+QSpinBox:focus, QDoubleSpinBox:focus {
+    border-color: #e94560;
+}
+
+QLabel#SettingsHint {
+    color: #8888aa;
+    font-style: italic;
+    font-size: 14px;
+    padding: 20px;
+}
+
+QMessageBox {
+    background-color: #1a1a2e;
+}
+
+QMessageBox QLabel {
+    color: #ffffff;
+}
+
+QMessageBox QPushButton {
+    min-width: 80px;
+    margin: 5px;
+}
