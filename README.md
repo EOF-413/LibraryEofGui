@@ -222,6 +222,7 @@ AppType.is_source()
 
 ## Структура
 
+```text
 modules/EofGui/
 ├── utils/
 │   ├── css.py           # Загрузка CSS
@@ -232,6 +233,7 @@ modules/EofGui/
 │   └── flow.py          # FlowLayout
 └── backend/
     └── windows.py       # Контроллеры окон
+```
 
 ## Зависимости
 - PyQt5
