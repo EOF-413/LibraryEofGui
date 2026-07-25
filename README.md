@@ -236,6 +236,6 @@ modules/EofGui/
 ```
 
 ## Зависимости
-- PyQt5
-- LibraryEofApp (LEA)
-- LibraryLogSystem (LLS)
+[PyQt5](https://pypi.org/project/PyQt5/)
+[LibraryEofApp (LEA)](https://github.com/EOF-413/LibraryEofApp)
+[LibraryLogSystem (LLS)](https://github.com/EOF-413/LibraryLogSystem)
