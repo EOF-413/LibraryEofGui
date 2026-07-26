@@ -5,7 +5,7 @@ from PyQt5.QtCore import QObject, pyqtSignal
 # Local
 from ....LogSystem import log_init
 
-log = log_init('EofGui/backend')
+log = log_init('modules/EofGui/backend')
 
 
 class Controller(QObject):
