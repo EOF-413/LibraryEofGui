@@ -5,7 +5,7 @@ from PyQt5.QtCore import QFile, QTextStream
 # Local
 from ...LogSystem import log_init
 
-log = log_init('EofGui/utils')
+log = log_init('modules/EofGui/utils')
 
 
 class Css:
